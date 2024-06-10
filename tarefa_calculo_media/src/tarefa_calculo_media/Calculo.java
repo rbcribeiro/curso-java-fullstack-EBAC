@@ -23,7 +23,16 @@ public class Calculo {
 
         media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-        System.out.printf("A nota média é de %.2f", media);
+        System.out.printf("A nota média é de %.2f\n", media);
+
+        if (media >= 7) {
+            System.out.println("Aprovado");
+        } else if (media >= 5) {
+            System.out.println("Recuperação");
+        } else {
+            System.out.println("Reprovado");
+        }
+
         leia.close();
     }
 }
