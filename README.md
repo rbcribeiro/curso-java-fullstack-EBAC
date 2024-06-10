@@ -1,6 +1,6 @@
 <div align=center>
 
-<img src="./ebac-logo..svg" alt="EBAC Logo" width="150" height="auto">
+<img src="./ebac-logo.svg" alt="EBAC Logo" width="150" height="auto">
 
 # **🎓 Profissão: Desenvolvedor Full Stack Java**
 
