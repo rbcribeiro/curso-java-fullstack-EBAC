@@ -1,0 +1,17 @@
+{
+  "name": "tarefa_less",
+  "version": "1.0.0",
+  "description": "Este projeto é uma conversão de um arquivo CSS para LESS, utilizando variáveis, mixins e organização modular.",
+  "main": "index.js",
+  "scripts": {
+    "less": "lessc less/main.less css/style.css",
+    "watch-less": "less-watch-compiler less css main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less-watch-compiler": "^1.16.3"
+  }
+}
