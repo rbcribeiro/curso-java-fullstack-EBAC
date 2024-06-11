@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-img-overlay, .card-img {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+@media (max-width: 760px) {
+    .card {
+        margin-bottom: 30px;
+    }
+}
