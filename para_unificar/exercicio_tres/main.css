@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 40px;
+  background-color: #d0d0d0b6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+#contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-campo {
+  margin-bottom: 3px;
+}
+
+.form-campo label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.form-campo div{
+  margin: 10px 0;
+}
+.form-campo input,
+.form-campo textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  
+}
+
+label.error {
+  color: red;
+  font-style: italic;
+  font-size: 12px;
+  display: inline;
+}
+
+.endereco-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #d1d1d1;
+padding: 5px;
+}

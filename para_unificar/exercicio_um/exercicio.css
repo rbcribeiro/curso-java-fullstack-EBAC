@@ -1,0 +1,20 @@
+body,
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 99, 253);
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(224, 199, 241, 0.692);
+    border-radius: 20px;
+    padding: 50px;
+    align-items: center;
+}
+
+label,
+input, button {
+    margin: 10px ;
+}

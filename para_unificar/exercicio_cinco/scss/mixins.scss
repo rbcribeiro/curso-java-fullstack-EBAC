@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+@mixin button-styling {
+    display: block;
+    background-color: variaveis.$cor-botao;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: variaveis.$cor-botao-hover;
+    }
+}
