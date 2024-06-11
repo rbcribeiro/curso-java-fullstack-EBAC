@@ -1,0 +1,79 @@
+@import 'variables.less';
+@import 'mixins.less';
+
+* {
+  .box-sizing();
+  font-family: @font-family;
+}
+
+body {
+  .background-color(@bg-color);
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: @container-max-width;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  .background-color(@primary-color);
+  position: sticky;
+  top: 0;
+  left: 0;
+  .container {
+    .flex-center();
+    justify-content: space-between;
+    padding: @header-padding 0;
+  }
+}
+
+.menu {
+  display: flex;
+  li {
+    font-weight: bold;
+    margin-left: 24px;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+section {
+  padding: @section-padding 0;
+}
+
+.products {
+  margin-top: @product-margin-top;
+  display: grid;
+  grid-template-columns: repeat(3, 32.66%);
+  column-gap: 1%;
+  row-gap: 4%;
+  width: 100%;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: @product-item-border-radius;
+}
+
+.product-button {
+  display: block;
+  .background-color(@secondary-color);
+  color: #fff;
+  .text-center();
+  padding: @product-button-padding 0;
+  border-radius: @product-button-border-radius;
+  margin-top: @product-button-margin-top;
+  text-decoration: none;
+  &:hover {
+    .background-color(@secondary-color-hover);
+  }
+}
